@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+ul{
+    margin-bottom: 10px;
+}
+
+ul > li:nth-child(3){
+    color: red;
+}
+ul > li:nth-child(4){
+    color: red;
+}
+
+ol > li:nth-child(2){
+    font-size: 24px;
+}
+
+ol > li:nth-child(4){
+    font-size: 24px;
+}
+ol{
+    margin-bottom: 10px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+div > p:first-of-type{
+    font-style: italic;
+}
+
+div > button{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+
+/*div{*/
+/*    width: 500px;*/
+/*    Height: 300px;*/
+/*    background-color: aqua;*/
+/*}*/
+
+/*div > div{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background-color: red;*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+/*div > div:nth-child(odd){*/
+/*    background-color: green;*/
+/*}*/
+
+ div > div > button:hover{
+    background-color: blue;
+    border-width: 3px;
+}
+
+div > div > button:active{
+    border-radius: 200px;
+    border-width: 1px;
+}
